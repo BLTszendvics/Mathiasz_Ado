@@ -1,0 +1,100 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+main {
+
+    background-image: url("images/aepulet.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cim {
+
+    margin: auto;
+    text-align: center;
+    padding: 20%;
+    color:white;
+
+}
+
+.cim h1 {
+
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 0px;
+    font-weight: bolder;
+
+}
+
+.gradiant {
+
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6068802521008403) 40%, rgba(255,255,255,0.8057598039215687) 70%);
+
+}
+
+.rolunk {
+
+    margin-top: 20%;
+
+    text-align: center;
+
+    /*margin-left: 30%;
+    margin-right: 30%;*/
+    padding: 20%
+
+}
+
+.rolunk h2 {
+
+    font-size: 46px;
+    font-weight: bold;
+
+}
+
+.rolunk p {
+
+    font-size: 28px;
+
+}
+
+.navlink, .navlink:hover {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.logo {
+
+    position: relative;
+    width: 100%;
+    
+
+}
+
+.logo-box {
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position:fixed;
+
+    left: 40px;
+
+    width: 6%;
+
+    padding: 1%;
+
+    z-index: 19999;
+    text-align: center;
+
+}
