@@ -4,12 +4,28 @@ body {
 
 }
 
-main {
+@keyframes animatedBackground {
+    
+    from {
+
+        background-size: 100%;
+
+    }
+    to {
+
+        background-size: 115%;
+
+    }
+
+}
+
+.hatter1 {
 
     background-image: url("images/aepulet.jpeg");
     background-position: center;
-    background-size: cover;
+    background-size: 100%; /*cover*/
     background-attachment: fixed;
+    animation: animatedBackground 15s linear infinite alternate;
 
 }
 
@@ -32,10 +48,10 @@ main {
 
 }
 
-.gradiant {
+.gradiant1 {
 
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.6068802521008403) 40%, rgba(255,255,255,0.8057598039215687) 70%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6068802521008403) 40%, rgba(255,255,255,0.8057598039215687) 70%, rgba(255,255,255,0.81) 94%, rgba(255,255,255,1) 100%);
 
 }
 
@@ -78,6 +94,8 @@ main {
 
     position: relative;
     width: 100%;
+
+    opacity: 0.85;
     
 
 }
@@ -98,3 +116,295 @@ main {
     text-align: center;
 
 }
+
+.ado {
+
+    padding: 5%;
+
+}
+
+.ado-kep-o {
+
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.ado-kep {
+
+    border: 3px solid #333333;
+    border-radius: 10% 90% 10% 90% / 90% 10% 90% 10%;
+    background: #ffffff;
+    position: relative;
+
+    &::before {
+        content: '';
+        border: 2px solid #353535;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+        border-radius: 90% 10% 90% 10% / 10% 90% 10% 90%;
+    
+    }
+
+}
+
+.ado-kep img {
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.ado-szoveg {
+
+    padding: 10%;
+
+}
+
+.ado-szoveg h2 {
+
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.ado-szoveg p {
+
+    font-size: 20px;
+
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.hatter2 {
+
+    background-image: url("images/aepulet-fentrol.png");
+    background-position: center;
+    background-size: 100%; /*cover*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.gradiant2 {
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    padding: 15%;
+
+    color:black;
+
+}
+
+.hir-card-o {
+
+    padding: 1%;
+
+}
+
+.hir-card {
+
+    padding: 2%;
+
+    border: 5px black solid;
+
+    text-align: center;
+
+}
+
+.hir-card h3 {
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-weight: bold;
+
+}
+
+
+.hir-card p{
+
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%
+
+}
+
+.gomb {
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px;
+
+}
+
+.vonal {
+
+    margin-top: 5%;
+    border: 1px solid black;
+    width: 100%;
+    height: 1px;
+
+}
+
+.hirek {
+
+    text-align: center;
+
+}
+
+.hirek h1 {
+
+    font-weight: bold;
+    margin-bottom: 8%;
+
+}
+
+.arrow {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 25px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.galeria {
+
+    background-color: white;
+    padding: 2% 20% 2% 20%;
+
+    text-align: center;
+
+}
+
+.galeria h1 {
+
+    font-weight: bold;
+    margin: 3% 0 3% 0;
+
+}
+.hatter3-o {
+
+    background-image: url('images/bal.jpg');
+    background-position: center;
+    background-size: 100%; /*cover*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.hatter3 {
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.bal {
+
+    padding: 10%;
+    color: white;
+    
+}
+
+.bal-szoveg {
+
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.bal-szoveg h2 {
+
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 42px;
+
+}
+
+.hatter4 {
+
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.hatter4 h1 {
+
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
+
+/*  nem tudom meg hogy mukodik
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+  
+  header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  
+  .background {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .foreground {
+    transform: translateZ(-5px) scale(1.5);
+  }
+  
+  .background,
+  .foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .title {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;;
+  }
+  
+  section {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }*/
