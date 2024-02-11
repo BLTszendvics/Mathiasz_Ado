@@ -188,7 +188,7 @@ body {
 
     background-image: url("images/aepulet-fentrol.png");
     background-position: center;
-    background-size: 100%; /*cover*/
+    background-size: cover; /*cover*/
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -196,7 +196,8 @@ body {
 
 .gradiant2 {
 
-    background-color: rgba(255, 255, 255, 0.7);
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5956757703081232) 7%, rgba(255,255,255,0.5956757703081232) 93%, rgba(255,255,255,1) 100%);
 
     padding: 15%;
 
@@ -307,7 +308,7 @@ body {
 
     background-image: url('images/bal.jpg');
     background-position: center;
-    background-size: 100%; /*cover*/
+    background-size: cover; /*cover*/
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -360,6 +361,44 @@ body {
     margin-bottom: 4%;
 
 }
+
+.reveal{
+
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+
+}
+  
+.reveal.active{
+
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+.anim-fade {
+
+    animation: fade 1s linear;
+
+}
+
+@keyframes fade {
+
+    0% { 
+    
+        opacity: 0; 
+    
+    }    
+    100% {
+    
+        opacity: 1; 
+    
+    }
+
+}
+
 
 /*  nem tudom meg hogy mukodik
 .wrapper {
