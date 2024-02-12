@@ -23,18 +23,26 @@ class article {
         links[aIndex][3].innerHTML = this.description;
         //links[aIndex][4].
 
-        cardLinks[aIndex].classList.remove('anim-fade');
+        
+        Rem(aIndex, "megnyomva");
+        
         cardLinks[aIndex].classList.add('anim-fade');
+        cardLinks[aIndex].style.animationPlayState = "running";
 
-        cardLinks[aIndex].addEventListener('animationend',
-            
-            function (e) {
-                
-                cardLinks[aIndex].classList.remove('anim-fade');
-            
-            });
+        
 
     }
+
+}
+
+function Rem(aIndex, g) {
+
+    console.log("rem " + g);
+
+    cardLinks[aIndex].style.animationPlayState = "paused";
+    cardLinks[aIndex].style.opacity = "1";
+    cardLinks[aIndex].classList.remove('anim-fade');
+    cardLinks[aIndex].offsetWidth;
 
 }
 
@@ -51,22 +59,31 @@ let articles = [
 ];
 
 let links = [];
-let cardLinks = document.getElementsByClassName('hir-card');
+let cardLinks = document.getElementsByClassName('card-anim');
 
 let fi;
 let li;
 
 for (let i = 0; i < 3; i++) {
 
-    links.push(document.getElementById('hir-' + i).children[0].children);
+    links.push(document.getElementById('hir-' + i).children[0].children[0].children);
     
 }
 
 for (let i = 0; i < 3; i++) {
 
+    cardLinks[i].addEventListener('animationend',
+            
+        function (e) {
+                
+            Rem(i, "lejart");
+            
+    });
+
     articles[i].load(i);
 
 }
+
 fi = 0;
 li = 2;
 
@@ -104,6 +121,16 @@ function Right() {
 
     }
 
+    /*for (let i = 0; i < cardLinks.length; i++) {
+
+        cardLinks[i].style.animationPlayState = "paused";
+        cardLinks[i].style.opacity = "1";
+        cardLinks[i].classList.remove('anim-fade');
+
+    }*/
+
+    
+
 }
 
 function Left() {
@@ -137,5 +164,12 @@ function Left() {
         }
 
     }
+
+    /*for (let i = 0; i < cardLinks.length; i++) {
+
+        cardLinks[i].classList.add('anim-fade');
+        cardLinks[i].style.animationPlayState = "running";
+
+    }*/
 
 }
