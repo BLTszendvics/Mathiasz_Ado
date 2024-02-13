@@ -4,7 +4,13 @@ body {
 
 }
 
-@keyframes animatedBackground {
+img {
+
+    width: 100%;
+
+}
+
+@keyframes animatedBackground0 {
     
     from {
 
@@ -18,6 +24,50 @@ body {
     }
 
 }
+@keyframes animatedBackground1 {
+    
+    from {
+
+        background-size: 140%;
+
+    }
+    to {
+
+        background-size: 160%;
+
+    }
+
+}
+
+@keyframes animatedBackground2 {
+    
+    from {
+
+        background-size: 280%;
+
+    }
+    to {
+
+        background-size: 310%;
+
+    }
+
+}
+
+@keyframes animatedBackground3 {
+    
+    from {
+
+        background-size: 380%;
+
+    }
+    to {
+
+        background-size: 420%;
+
+    }
+
+}
 
 .hatter1 {
 
@@ -26,8 +76,11 @@ body {
     background-position: center;
     background-size: 100%; /*cover*/
     background-attachment: fixed;
-    animation: animatedBackground 15s linear infinite alternate;
+    animation: animatedBackground3 15s linear infinite alternate;
+
 }
+
+/*animation: animatedBackground 15s linear infinite alternate;*/
 
 .cim {
 
@@ -48,7 +101,7 @@ body {
 
 }
 
-.gradiant1 {
+.bg0 {
 
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.6068802521008403) 40%, rgba(255,255,255,0.8057598039215687) 70%, rgba(255,255,255,0.81) 94%, rgba(255,255,255,1) 100%);
@@ -57,7 +110,7 @@ body {
 
 .rolunk {
 
-    margin-top: 20%;
+    margin-top: 100%;
 
     text-align: center;
 
@@ -289,6 +342,12 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5
     -webkit-transform: rotate(135deg);
 }
 
+.arrow:hover {
+
+    cursor: pointer;
+
+}
+
 .galeria {
 
     background-color: white;
@@ -346,7 +405,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5
 .hatter4 {
 
     background-color: white;
-    padding: 5%;
+    padding: 10%;
     text-align: center;
 
     padding-left: 15%;
@@ -398,6 +457,120 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5
     
         opacity: 1; 
     
+    }
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.fab, .fas {
+
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    
+    border-radius: 20px 20px;
+
+}
+
+.col-s {
+
+    width: 100%;
+
+}
+
+#hir-1, #hir-2 {
+
+    display: none;
+
+}
+
+@keyframes animatedBackground {
+    
+    from {
+
+        background-size: 120%;
+
+    }
+    to {
+
+        background-size: 135%;
+
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .hatter1 {
+
+        animation: animatedBackground2 15s linear infinite alternate;
+
+    }
+
+    .rolunk {
+
+        margin-top: 65%;
+
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+    .hatter1 {
+
+        animation: animatedBackground1 15s linear infinite alternate;
+
+    }
+
+    .rolunk {
+
+        margin-top: 40%;
+
+    }
+
+    #hir-1 {
+
+        display: block;
+
+    }
+
+    .col-s {
+
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+
+    .hatter1 {
+
+        animation: animatedBackground0 15s linear infinite alternate;
+
+    }
+
+    .rolunk {
+
+        margin-top: 20%;
+
+    }
+
+    #hir-2 {
+
+        display: block;
+
+    }
+
+    .col-s {
+
+        width: 33%;
+
     }
 
 }
