@@ -46,13 +46,13 @@ function Rem(aIndex, g) {
 
 let articles = [
     
-    new article("Ez egy cím 0", "0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "google.com", "tesztt.jpeg"),
-    new article("Ez egy cím 1", "1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg"),
-    new article("Ez egy cím 2", "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg"),
-    new article("Ez egy cím 3", "3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg"),
-    new article("Ez egy cím 4", "4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg"),
-    new article("Ez egy cím 5", "5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg")
-    ,new article("Ez egy cím 6", "6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "tesztt.jpeg")
+    new article("Ez egy cím 0", "0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "google.com", "/galeria/img0.jpg"),
+    new article("Ez egy cím 1", "1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img1.jpg"),
+    new article("Ez egy cím 2", "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img2.jpg"),
+    new article("Ez egy cím 3", "3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img3.jpg"),
+    new article("Ez egy cím 4", "4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img4.jpg"),
+    new article("Ez egy cím 5", "5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img5.jpg")
+    ,new article("Ez egy cím 6", "6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid molestias, doloremque doloribus quibusdam est eveniet quidem inventore quo deserunt a cumque ea, iste in minus, voluptatem laboriosam neque nulla?", "#", "/galeria/img6.jpg")
 
 ];
 

@@ -116,7 +116,7 @@ img {
 
     /*margin-left: 30%;
     margin-right: 30%;*/
-    padding: 20%
+    padding: 5%
 
 }
 
@@ -351,7 +351,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5
 .galeria {
 
     background-color: white;
-    padding: 2% 20% 2% 20%;
+    padding: 4% 4% 4% 4%;
 
     text-align: center;
 
@@ -360,7 +360,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5
 .galeria h1 {
 
     font-weight: bold;
-    margin: 3% 0 3% 0;
+    margin: 3% 0 6% 0;
 
 }
 .hatter3-o {
@@ -517,6 +517,18 @@ a {
 
     }
 
+    .galeria {
+
+        padding: 4% 4% 4% 4%;
+
+    }
+
+    .rolunk {
+
+        padding: 5%;
+
+    }
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -542,6 +554,18 @@ a {
     .col-s {
 
         width: 50%;
+
+    }
+
+    .galeria {
+
+        padding: 3% 10% 3% 10%;
+
+    }
+
+    .rolunk {
+
+        padding: 10%;
 
     }
 
@@ -572,6 +596,35 @@ a {
         width: 33%;
 
     }
+
+    .galeria {
+
+        padding: 2% 20% 2% 20%;
+
+    }
+
+    .rolunk {
+
+        padding: 20%;
+
+    }
+
+}
+
+footer {
+
+    font-size: 14px;
+
+}
+.ezkell {
+    
+    border: white solid 3px;
+
+}
+.ezkell span {
+
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    
 
 }
 
